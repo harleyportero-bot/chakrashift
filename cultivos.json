@@ -1,0 +1,75 @@
+{
+  "_nota": "VALORES DE EJEMPLO aproximados. Amelia debe reemplazarlos con fuentes (base ECOCROP de la FAO y literatura). Rangos: [mínimo absoluto, óptimo mínimo, óptimo máximo, máximo absoluto]. Atributos de prioridades: 1 (bajo) a 5 (alto). tolera_inundacion: 0 (nada) a 1 (mucho).",
+  "cultivos": {
+    "yuca": {
+      "nombre": "Yuca",
+      "temp": [12, 18, 30, 37],
+      "lluvia": [500, 1000, 3500, 5500],
+      "ph": [4.0, 5.0, 7.5, 8.5],
+      "tolera_inundacion": 0.1,
+      "fija_n": 1, "materia_organica": 1, "reduce_erosion": 1, "mercado": 3, "forraje": 3,
+      "consejo": "La yuca agota el suelo: después de cosecharla conviene sembrar maní o fréjol para devolverle nitrógeno.",
+      "por_que_sumarla": "Alimento base de la familia."
+    },
+    "platano": {
+      "nombre": "Plátano / verde",
+      "temp": [15, 22, 30, 38],
+      "lluvia": [1000, 1800, 4000, 6000],
+      "ph": [4.5, 5.5, 7.5, 8.0],
+      "tolera_inundacion": 0.3,
+      "fija_n": 1, "materia_organica": 3, "reduce_erosion": 3, "mercado": 3, "forraje": 2,
+      "consejo": "Deja las hojas y troncos cortados sobre el suelo: alimentan la tierra y guardan humedad.",
+      "por_que_sumarla": "Da sombra al cacao joven y deja mucha materia orgánica."
+    },
+    "cacao": {
+      "nombre": "Cacao",
+      "temp": [15, 21, 30, 36],
+      "lluvia": [1000, 1500, 3500, 5500],
+      "ph": [4.0, 5.0, 7.5, 8.5],
+      "tolera_inundacion": 0.3,
+      "fija_n": 1, "materia_organica": 3, "reduce_erosion": 3, "mercado": 5, "forraje": 1,
+      "consejo": "El cacao fino de aroma se vende mejor con sombra de árboles y buen manejo de la poda.",
+      "por_que_sumarla": "Alto valor en el mercado, sobre todo como cacao fino de aroma."
+    },
+    "guayusa": {
+      "nombre": "Guayusa",
+      "temp": [12, 18, 28, 33],
+      "lluvia": [1200, 2000, 5000, 6500],
+      "ph": [3.8, 4.5, 6.5, 7.5],
+      "tolera_inundacion": 0.2,
+      "fija_n": 1, "materia_organica": 3, "reduce_erosion": 3, "mercado": 4, "forraje": 1,
+      "consejo": "La guayusa crece bien bajo sombra; cosechar las hojas sin dejar la planta pelada.",
+      "por_que_sumarla": "Tiene mercado (bebidas) y es parte de la cultura kichwa."
+    },
+    "papa_china": {
+      "nombre": "Papa china",
+      "temp": [15, 21, 28, 35],
+      "lluvia": [1000, 1800, 4500, 6000],
+      "ph": [4.5, 5.5, 7.0, 8.0],
+      "tolera_inundacion": 0.8,
+      "fija_n": 1, "materia_organica": 2, "reduce_erosion": 2, "mercado": 3, "forraje": 2,
+      "consejo": "La papa china aguanta suelos húmedos: es buena opción para las partes bajas de la chakra.",
+      "por_que_sumarla": "Aguanta suelos muy húmedos, ideal para las partes bajas."
+    },
+    "mani_forrajero": {
+      "nombre": "Maní forrajero",
+      "temp": [15, 22, 30, 36],
+      "lluvia": [900, 1500, 4000, 5500],
+      "ph": [4.0, 4.5, 7.0, 8.0],
+      "tolera_inundacion": 0.4,
+      "fija_n": 5, "materia_organica": 4, "reduce_erosion": 5, "mercado": 1, "forraje": 5,
+      "consejo": "Úsalo como cobertura entre cultivos: protege el suelo, devuelve nitrógeno y sirve de forraje.",
+      "por_que_sumarla": "Cubre el suelo, devuelve nitrógeno y frena la erosión; además sirve de forraje."
+    },
+    "guaba": {
+      "nombre": "Guaba (Inga)",
+      "temp": [14, 20, 30, 36],
+      "lluvia": [1000, 1500, 4500, 6000],
+      "ph": [3.8, 4.5, 7.0, 8.0],
+      "tolera_inundacion": 0.5,
+      "fija_n": 5, "materia_organica": 5, "reduce_erosion": 4, "mercado": 2, "forraje": 3,
+      "consejo": "La guaba da sombra al cacao, fija nitrógeno y su hojarasca mejora el suelo.",
+      "por_que_sumarla": "Árbol que devuelve nitrógeno, da sombra al cacao y llena el suelo de hojarasca."
+    }
+  }
+}
